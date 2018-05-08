@@ -12,6 +12,8 @@ class Content extends Component {
 			: variable;
 		return (
 			<KeyboardAwareScrollView
+        enableOnAndroid
+        enableAutomaticScroll
 				automaticallyAdjustContentInsets={false}
 				resetScrollToCoords={this.props.disableKBDismissScroll ? null : { x: 0, y: 0 }}
 				keyboardShouldPersistTaps={this.props.keyboardShouldPersistTaps ? this.props.keyboardShouldPersistTaps : 'handled'}
