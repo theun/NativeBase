@@ -12,6 +12,8 @@ this.context.theme["@@shoutem.theme/themeStyle"].variables:
 _platform2.default;
 return(
 _react2.default.createElement(_reactNativeKeyboardAwareScrollView.KeyboardAwareScrollView,_extends({
+enableOnAndroid:true,
+enableAutomaticScroll:true,
 automaticallyAdjustContentInsets:false,
 resetScrollToCoords:this.props.disableKBDismissScroll?null:{x:0,y:0},
 keyboardShouldPersistTaps:this.props.keyboardShouldPersistTaps?this.props.keyboardShouldPersistTaps:'handled',
